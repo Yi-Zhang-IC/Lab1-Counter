@@ -32,6 +32,7 @@ VL_MODULE(Vcounter) {
     // LOCAL VARIABLES
     // Internals; generally not touched by application code
     CData/*0:0*/ __Vclklast__TOP__clk;
+    CData/*0:0*/ __Vclklast__TOP__rst;
     CData/*0:0*/ __Vm_traceActivity[1];
     
     // INTERNAL VARIABLES

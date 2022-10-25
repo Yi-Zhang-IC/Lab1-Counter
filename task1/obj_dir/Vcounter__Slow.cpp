@@ -33,6 +33,7 @@ void Vcounter::_eval_initial(Vcounter__Syms* __restrict vlSymsp) {
     Vcounter* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->__Vclklast__TOP__clk = vlTOPp->clk;
+    vlTOPp->__Vclklast__TOP__rst = vlTOPp->rst;
 }
 
 void Vcounter::final() {
